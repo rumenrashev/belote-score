@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Belot</title>
+</head>
+<body>
+    <header>
+        <table id="header-table">
+            <tr>
+                <td>
+                    <button id="back-btn">&#8592</button>
+                </td>
+                <td id="f">
+                    <button id="forward">&#8594</button>
+                </td>
+                <td>
+                    <button id="reset">&#8635</button>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <div class="header-buffer"></div>
+    <main>
+        <table class="main-table" id="table"></table>
+    </main>
+    <div class="buffer"></div>
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <input id="left-input" readonly/>
+                </td>
+                <td id="score" class="score">
+                    <div id="points"></div>
+                    <div id="games"></div>
+                </td>
+                <td>
+                    <input id="right-input" readonly/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="one" class="number">1</button>
+                </td>
+                <td>
+                    <button class="number">2</button>
+                </td>
+                <td>
+                    <button class="number">3</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="number">4</button>
+                </td>
+                <td>
+                    <button class="number">5</button>
+                </td>
+                <td>
+                    <button class="number">6</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="number">7</button>
+                </td>
+                <td>
+                    <button class="number">8</button>
+                </td>
+                <td>
+                    <button class="number">9</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="clear">&#8592</button>
+                </td>
+                <td>
+                    <button id="0" class="number">0</button>
+                </td>
+                <td>
+                    <button id="enter">&#8629</button>
+                </td>
+            </tr>
+        </table>
+    </footer> 
+</body>
+</html>
+<script src="collections.js"></script>
+<script src="scirpt.js"></script>
+<script src="reset.js"></script>
